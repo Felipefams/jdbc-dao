@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1aaf321f-7e35-4e8a-a290-a6992bb78462" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/dao/DaoFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/dao/impl/SellerDaoJDBC.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/application/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/dao/DepartmentDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/dao/DepartmentDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/dao/SellerDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/dao/SellerDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/db/DB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/db/DB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/dao/DaoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/dao/DaoFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/dao/impl/SellerDaoJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/dao/impl/SellerDaoJDBC.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +72,10 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\College\intellij-workspace\jdbc-dao\src\main\java" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\College\intellij-workspace\jdbc-dao\src" />
+      <recent name="F:\College\intellij-workspace\jdbc-dao\src\main" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -85,7 +89,7 @@
       <workItem from="1676334424355" duration="423000" />
       <workItem from="1676334863334" duration="1195000" />
       <workItem from="1676425239433" duration="56000" />
-      <workItem from="1676471784943" duration="4795000" />
+      <workItem from="1676471784943" duration="8496000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;test intellij commit&quot;">
       <created>1676485246671</created>
@@ -108,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676489501259</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="&quot;SellerDaoJDBC &amp;&amp; DaoFactory&quot;">
+      <created>1676490535540</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676490535540</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,6 +129,7 @@
     <MESSAGE value="&quot;test intellij commit&quot;" />
     <MESSAGE value="&quot;Class Seller.java&quot;" />
     <MESSAGE value="&quot;DAO interfaces&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;DAO interfaces&quot;" />
+    <MESSAGE value="&quot;SellerDaoJDBC &amp;&amp; DaoFactory&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;SellerDaoJDBC &amp;&amp; DaoFactory&quot;" />
   </component>
 </project>
