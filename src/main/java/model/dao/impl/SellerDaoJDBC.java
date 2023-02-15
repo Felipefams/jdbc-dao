@@ -10,7 +10,7 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.List;
+import java.util.*;
 
 public class SellerDaoJDBC implements SellerDao {
 
@@ -63,6 +63,48 @@ public class SellerDaoJDBC implements SellerDao {
         }
     }
 
+    @Override
+    public List<Seller> findByDepartment(Department dep) {
+        PreparedStatement st = null;
+        ResultSet rs = null;
+        try{
+            st = conn.prepareStatement(
+                   "select seller.*, department.Name as DepName\n" +
+                           "from seller inner join department\n" +
+                           "on seller.DepartmentId = department.Id\n" +
+                           "where DepartmentId = ?\n" +
+                           "order by Name"
+            );
+            st.setInt(1, dep.getId());
+            rs = st.executeQuery();
+
+            var list = new ArrayList<Seller>();
+            var mp = new HashMap<Integer, Department>();
+
+            while(rs.next()){
+                Department dep2 = mp.get(rs.getInt("DepartmentId"));
+                if(dep2 == null) {
+                    dep2 = instantiateDepartment(rs);
+                    mp.put(dep.getId(), dep);
+                }
+                Seller obj = instantiateSeller(rs, dep2);
+                list.add(obj);
+            }
+            return list;
+        } catch (SQLException e) {
+            throw new DBException(e.getMessage());
+        }finally{
+            DB.closeResultSet(rs);
+            DB.closeStatement(st);
+        }
+    }
+
+
+    @Override
+    public List<Seller> findAll() {
+        return null;
+    }
+
     private Seller instantiateSeller(ResultSet rs, Department dep) throws SQLException{
         Seller obj = new Seller();
         obj.setId(rs.getInt("Id"));
@@ -81,8 +123,4 @@ public class SellerDaoJDBC implements SellerDao {
         return dep;
     }
 
-    @Override
-    public List<Seller> findAll() {
-        return null;
-    }
 }
