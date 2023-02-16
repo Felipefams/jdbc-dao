@@ -22,7 +22,9 @@ public class Main2 {
         list.forEach(System.out::println);
 
         System.out.println("==== TEST  3: seller insert ====");
-
+        Department tmp = new Department(null, "Hope");
+        departmentDao.insert(tmp);
+        System.out.println("Department inserted! id = " + tmp.getId());
 
         System.out.println("==== TEST  4: seller update ====");
 
