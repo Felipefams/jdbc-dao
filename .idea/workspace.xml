@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1aaf321f-7e35-4e8a-a290-a6992bb78462" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/application/Main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/dao/impl/DepartmentDaoJDBC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/dao/DaoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/dao/DaoFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/application/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/Main2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/dao/impl/DepartmentDaoJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/dao/impl/DepartmentDaoJDBC.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +106,7 @@
       <workItem from="1676334863334" duration="1195000" />
       <workItem from="1676425239433" duration="56000" />
       <workItem from="1676471784943" duration="17139000" />
-      <workItem from="1676557850059" duration="2830000" />
+      <workItem from="1676557850059" duration="3772000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;test intellij commit&quot;">
       <created>1676485246671</created>
@@ -194,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676515947075</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="&quot;findById() implemented for DepartmentDaoJDBC&quot;">
+      <created>1676585180102</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1676585180102</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,7 +218,8 @@
     <MESSAGE value="&quot;insert implementation&quot;" />
     <MESSAGE value="&quot;update implementation&quot;" />
     <MESSAGE value="&quot;Lombok Refactor&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Lombok Refactor&quot;" />
+    <MESSAGE value="&quot;findById() implemented for DepartmentDaoJDBC&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;findById() implemented for DepartmentDaoJDBC&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -222,6 +228,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/model/dao/impl/SellerDaoJDBC.java</url>
           <line>21</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/model/dao/impl/DepartmentDaoJDBC.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
