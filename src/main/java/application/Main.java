@@ -8,6 +8,7 @@ import model.dao.SellerDao;
 
 import java.util.Date;
 import java.util.List;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -39,6 +40,16 @@ public class Main {
         sellerDao.update(seller);
         System.out.println("Update completed! ");
         System.out.println(seller);
+
+
+        System.out.println("==== TEST  6: seller delete ====");
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter id for delete test: ");
+        int id = sc.nextInt();
+        sellerDao.deleteById(id);
+        System.out.println("Delete completed");
+        sc.close();
+
 
     }
 }

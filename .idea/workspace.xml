@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1aaf321f-7e35-4e8a-a290-a6992bb78462" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/application/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/dao/impl/SellerDaoJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/dao/impl/SellerDaoJDBC.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +86,7 @@
       <workItem from="1676334424355" duration="423000" />
       <workItem from="1676334863334" duration="1195000" />
       <workItem from="1676425239433" duration="56000" />
-      <workItem from="1676471784943" duration="13721000" />
+      <workItem from="1676471784943" duration="14348000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;test intellij commit&quot;">
       <created>1676485246671</created>
@@ -157,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676505326683</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="&quot;update implementation&quot;">
+      <created>1676507701412</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1676507701412</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,6 +182,7 @@
     <MESSAGE value="&quot;implemented findByDepartment&quot;" />
     <MESSAGE value="&quot;find all implementation&quot;" />
     <MESSAGE value="&quot;insert implementation&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;insert implementation&quot;" />
+    <MESSAGE value="&quot;update implementation&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;update implementation&quot;" />
   </component>
 </project>
