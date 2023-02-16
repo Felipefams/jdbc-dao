@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1aaf321f-7e35-4e8a-a290-a6992bb78462" name="Changes" comment="">
+    <list default="true" id="1aaf321f-7e35-4e8a-a290-a6992bb78462" name="Changes" comment="&quot;delete implementation&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/application/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/dao/impl/SellerDaoJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/dao/impl/SellerDaoJDBC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/entities/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/entities/Department.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +88,7 @@
       <workItem from="1676334424355" duration="423000" />
       <workItem from="1676334863334" duration="1195000" />
       <workItem from="1676425239433" duration="56000" />
-      <workItem from="1676471784943" duration="14348000" />
+      <workItem from="1676471784943" duration="16197000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;test intellij commit&quot;">
       <created>1676485246671</created>

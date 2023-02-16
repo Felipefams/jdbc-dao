@@ -50,6 +50,5 @@ public class Main {
         System.out.println("Delete completed");
         sc.close();
 
-
     }
 }
