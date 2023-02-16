@@ -107,7 +107,7 @@
       <workItem from="1676334863334" duration="1195000" />
       <workItem from="1676425239433" duration="56000" />
       <workItem from="1676471784943" duration="17139000" />
-      <workItem from="1676557850059" duration="4673000" />
+      <workItem from="1676557850059" duration="6032000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;test intellij commit&quot;">
       <created>1676485246671</created>
@@ -207,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676586301456</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="&quot;insert operation implemented for DepartmentDaoJDBC&quot;">
+      <created>1676587117917</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1676587117917</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,7 +235,8 @@
     <MESSAGE value="&quot;Lombok Refactor&quot;" />
     <MESSAGE value="&quot;findById() implemented for DepartmentDaoJDBC&quot;" />
     <MESSAGE value="&quot;findAll() implemented for DepartmentDaoJDBC&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;findAll() implemented for DepartmentDaoJDBC&quot;" />
+    <MESSAGE value="&quot;insert operation implemented for DepartmentDaoJDBC&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;insert operation implemented for DepartmentDaoJDBC&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -240,7 +248,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/model/dao/impl/DepartmentDaoJDBC.java</url>
-          <line>60</line>
+          <line>76</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">

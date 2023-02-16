@@ -27,7 +27,10 @@ public class Main2 {
         System.out.println("Department inserted! id = " + tmp.getId());
 
         System.out.println("==== TEST  4: seller update ====");
-
+        tmp = new Department(5, "Mudei kk");
+        departmentDao.update(tmp);
+        System.out.println("Department updated!");
+        System.out.println(tmp);
         System.out.println("==== TEST  5: seller delete ====");
 
 
